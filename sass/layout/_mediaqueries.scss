@@ -1,0 +1,41 @@
+
+/* Media index */
+
+@media (max-width: 768px) {
+	header {
+		width: 100%;
+		.container {
+			flex-direction: column;
+			justify-content: space-between;
+            overflow: hidden;
+		}
+		nav {
+			flex-direction: column;
+			padding-bottom: 25px;
+			justify-content: flex-end;
+		}
+	}
+
+	#nuestros-semillas {
+		.semillas {
+			display: flex;
+			justify-content: center;
+		}
+		margin-top: 0;
+		.carta {
+			padding: 50px;
+			p {
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	#listo-para-cultivar {
+		background-image: linear-gradient( 0deg, $colorsombra, $colorsombra ) ,url(../Assets/green.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+}
+
+

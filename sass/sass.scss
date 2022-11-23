@@ -1,0 +1,26 @@
+
+
+/* Utilities */ 
+
+@import "./utilities/variables";
+
+/* Base */ 
+
+@import "./base/resets";
+
+/* Layout */ 
+
+@import "./layout/header";
+
+@import "./layout/mediaqueries";
+
+@import "./layout/footer";
+
+/* Pages */ 
+
+@import "./pages/index";
+
+@import "./pages/catalogos";
+
+@import "./pages/registro";
+

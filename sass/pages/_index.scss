@@ -1,0 +1,120 @@
+
+
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    min-height: 90vh;
+    color: $colorblanco;
+    background-image: linear-gradient(
+        0deg,
+        $colorsombra,
+        $colorsombra
+    )   
+    ,url(../Assets/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#somos-gremlynseeds {
+    .container {
+        text-align: center;
+        padding: 200px 12px;
+        .color-grem { 
+            color: $colorverde;
+        }
+    }
+}
+
+#nuestras-semillas {
+    background-color: $colorfondoindex;
+    color: $colorblanco;
+    text-align: center;
+    margin-top: 0;
+    .container {
+        padding: 150px 12px;
+        .carta {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            padding: 50px;
+            margin: 20px;
+            border-radius: 15px;
+
+            &:first-child {    
+                background-image: linear-gradient(
+                0deg,
+                $colorsombra,
+                $colorsombra
+            )   
+            ,url(../Assets/auto.jpg);
+            }
+            
+            &:nth-child(2) {
+                background-image: linear-gradient(
+                    0deg,
+                    $colorsombra,
+                    $colorsombra
+                )   
+                ,url(../Assets/foto.jpg);
+            }
+            
+            &:nth-child(3) {
+                background-image: linear-gradient(
+                    0deg,
+                    $colorsombra,
+                    $colorsombra
+                )   
+                ,url(../Assets/fem.jpg);
+            }
+
+        }
+    }
+}
+
+@mixin caracteristicas {
+    display: flex;
+    justify-content: center;
+}
+
+#caracteristicas {
+    .container {
+        @include caracteristicas();
+        padding: 200px 12px;
+
+        li {
+            margin: 15px 0px;
+            font-weight: bold;
+        }
+    }
+}
+
+
+
+#listo-para-cultivar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: $colorfondoindex;
+    color: $colorblanco;
+    height: 80vh;
+
+    button {
+        font-size: 4vh;
+    }
+
+    h2 {
+        font-size: 7vh;
+    }
+
+
+}
+
+
+
